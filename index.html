@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<head>
+	<title>Exercícios</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+	<!--Css do site-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body class="bg-secondary">
+	<div class="container bg-white">
+
+		<div class="row">
+			<div class="col-md-3">
+				<img src="img/logo.png" class="img-fluid w-75 h-80" alt="Logo da php">
+			</div>
+			<div class="col-md-9">
+				<h2 class="text-center mt-5">Bem Vindo.</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<img src="img/banner.png" class="img-fluid w-100 h-75 mb-0">
+			</div>
+		</div>
+
+		<nav>
+
+			<hr>
+			<ul class="text-center mt-0">
+				<li class="d-inline ml-5">
+					<a href="exercicio3.php">Exercício 3</a>
+				</li>
+				<li class="d-inline ml-5">
+					<a href="exercicio4.php">Exercício 4</a>
+				</li>
+				<li class="d-inline ml-5">
+					<a href="#" data-toggle="modal" data-target="#divisao">Exercicio 5</a>
+				</li>
+				<li class="d-inline ml-5">
+					<a href="#" data-toggle="modal" data-target="#media">Exercício 6</a>
+				</li>
+				<li class="d-inline ml-5">
+					<a href="#" data-toggle="modal" data-target="#crescente">Exercício 7</a>
+				</li>
+				<li class="d-inline ml-5">
+					<a href="exercicio8.php">Exercício 8</a>
+				</li>
+				<li class="d-inline ml-5">
+					<a href="exercicio9.php">Exercício 9</a>
+				</li>
+				<li class="d-inline ml-5">
+					<a href="#" data-toggle="modal" data-target="#numeroMaior">Exercício 10</a>
+				</li>
+			</ul>
+			<hr class="mb-5">
+
+		</nav>
+
+		<main>
+			<!--Menu principal-->
+			<div class="row">
+
+				<div class="col-md-6">
+					<span class="border border-dark d-md-block text-center pt-3 pb-1 mb-3">
+						<h3>Exercício 3</h3>
+						<p>Soma de dois valores através de um algorítimo php.</p>
+						<a class="btn btn-success pl-5 pr-5" href="exercicio3.php">Ver</a>
+					</span>
+				</div>
+				<div class="col-md-6">
+					<span class="border border-dark d-md-block text-center pt-3 pb-1 mb-3">
+						<h3>Exercício 4</h3>
+						<p>Soma, multiplicação e verificação de quatro valores.</p>
+						<a class="btn btn-success pl-5 pr-5" href="exercicio4.php">Ver</a>
+					</span>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-6">
+					<span class="border border-dark d-md-block text-center pt-3 pb-1 mb-3">
+						<h3>Exercício 5</h3>
+						<p>Divisão de dois números.</p>
+						<a class="btn btn-success pl-5 pr-5" href="#" data-toggle="modal" data-target="#divisao">Calcular</a>
+					</span>
+				</div>
+
+				<div class="col-md-6">
+					<span class="border border-dark d-md-block text-center pt-3 pb-1 mb-3">
+						<h3>Exercício 6</h3>
+						<p>Verifica dois valores e os coloca em ordem crescente.</p>
+						<a class="btn btn-success pl-5 pr-5" href="#" data-toggle="modal" data-target="#crescente">Verificar</a>
+					</span>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-6">
+					<span class="border border-dark d-md-block text-center pt-3 pb-1 mb-3">
+						<h3>Exercício 7</h3>
+						<p>Calcula a média escolar e verifica se o aluno foi aprovado.</p>
+						<a class="btn btn-success pl-5 pr-5" href="#" data-toggle="modal" data-target="#media">Calcular</a>
+					</span>
+				</div>
+				<div class="col-md-6">
+					<span class="border border-dark d-md-block text-center pt-3 pb-1 mb-3">
+						<h3>Exercício 8</h3>
+						<p>Verificação de script php verdadeiro ou falso.</p>
+						<a class="btn btn-success pl-5 pr-5" href="exercicio8.php">Ver</a>
+					</span>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-6">
+					<span class="border border-dark d-md-block text-center pt-3 pb-1 mb-3">
+						<h3>Exercício 9</h3>
+						<p>Verificação de script php verdadeiro ou falso.</p>
+						<a class="btn btn-success pl-5 pr-5" href="exercicio9.php">Ver</a>
+					</span>
+				</div>
+				<div class="col-md-6">
+					<span class="border border-dark d-md-block text-center pt-3 pb-1 mb-3">
+						<h3>Exercício 10</h3>
+						<p>Verifica se um valor A é maior do que o valor B.</p>
+						<a class="btn btn-success pl-5 pr-5" href="#" data-toggle="modal" data-target="#numeroMaior">Verificar</a>
+					</span>
+				</div>
+
+			</div>
+			<br>
+
+		</main>
+
+		<!--Janelas Modal-->
+
+		<!--Divisao-->
+		<div id="divisao" class="modal fade" role="dialog">
+
+			<div class="modal-dialog">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<h4 class="modal-title">Divisão de números</h4>
+					</div>
+
+					<div class="modal-body">
+						<form action="exercicio5.php" method="POST">
+
+							<div class="form-group">
+
+								<div class="input-group mb-3">
+
+									<div class="input-group-prepend">
+										<span class="input-group-text">Valor 1</span>
+									</div>
+
+									<input type="number" class="form-control" aria-label="Default" name="valor1" required>
+								</div>
+
+								<div class="input-group mb-3">
+
+									<div class="input-group-prepend">
+										<span class="input-group-text">Valor2</span>
+									</div>
+
+									<input type="number" class="form-control" aria-label="Default" name="valor2" required>
+								</div>
+
+							</div>
+							<input type="submit" class="btn btn-success float-right" value="Calcular">
+							<button type="button" class="btn btn-success float-left" data-dismiss="modal">Fechar</button>
+
+						</form>
+					</div>
+				
+				</div>
+			</div>
+
+		</div>
+		
+		<!--Média aritimética-->
+		<div id="media" class="modal fade" role="dialog">
+
+			<div class="modal-dialog">
+				<div class="modal-content">
+
+					<div class="modal-header">
+						<h4 class="modal-title">Média aritimética</h4>
+					</div>
+
+					<div class="modal-body">
+						<form action="exercicio7.php" method="POST">
+
+							<div class="form-group">
+
+								<div class="input-group mb-3">
+
+									<div class="input-group-prepend">
+										<span class="input-group-text">Nota 1</span>
+									</div>
+
+									<input type="number" class="form-control" aria-label="Default" name="nota1" required>
+								</div>
+
+								<div class="input-group mb-3">
+
+									<div class="input-group-prepend">
+										<span class="input-group-text">Nota 2</span>
+									</div>
+
+									<input type="number" class="form-control" aria-label="Default" name="nota2" required>
+								</div>
+								
+								<div class="input-group mb-3">
+
+									<div class="input-group-prepend">
+										<span class="input-group-text">Nota 3</span>
+									</div>
+
+									<input type="number" class="form-control" aria-label="Default" name="nota3" required>
+								</div>
+								
+								<div class="input-group mb-3">
+
+									<div class="input-group-prepend">
+										<span class="input-group-text">Nota 4</span>
+									</div>
+
+									<input type="number" class="form-control" aria-label="Default" name="nota4" required>
+								</div>
+
+							</div>
+							<input type="submit" class="btn btn-success float-right" value="Calcular">
+							<button type="button" class="btn btn-success float-left" data-dismiss="modal">Fechar</button>
+
+						</form>
+					</div>
+				
+				</div>
+			</div>
+
+		</div>
+
+
+	</div>
+</body>
+</html>
